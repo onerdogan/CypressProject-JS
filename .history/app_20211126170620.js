@@ -17,6 +17,5 @@ console.log(friendList);
 
 //yeni deger ekleme
 //deniz
-friendList[4] = "deniz";
-friendList[7] = "elif";
+friendList[5] = "deniz";
 console.log(friendList);
