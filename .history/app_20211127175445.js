@@ -50,5 +50,5 @@ var people = [
 let young = people.filter((people) => people.age < 35);
 console.log(young);
 
-let old = people.filter((x) => x.age > 35);
+let young = people.filter((x) => x.age > 35);
 console.log(old);

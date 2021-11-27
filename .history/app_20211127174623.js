@@ -26,29 +26,3 @@ console.log(cift);
 
 let tek = numbers.filter((e) => e % 2 !== 0);
 console.log(tek);
-
-//filter() arrays
-
-var people = [
-  {
-    id: 1,
-    name: "john",
-    age: 28,
-  },
-  {
-    id: 2,
-    name: "jene",
-    age: 58,
-  },
-  {
-    id: 3,
-    name: "peter",
-    age: 24,
-  },
-];
-
-let young = people.filter((people) => people.age < 35);
-console.log(young);
-
-let old = people.filter((x) => x.age > 35);
-console.log(old);
